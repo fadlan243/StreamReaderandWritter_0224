@@ -38,4 +38,7 @@ int main()
          << ">= Membuka dan membaca gile " << endl;
     // jika file ada maka
     if (infile.is_open())
-    
+    {
+        // melakukan peruangan setiap baris 
+        while (getline(infile, baris))
+        
