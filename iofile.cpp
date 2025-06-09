@@ -34,3 +34,8 @@ int main()
     // menulis file
     infile.open("contohfile.txt");
     
+    cout << endl;
+         << ">= Membuka dan membaca gile " << endl;
+    // jika file ada maka
+    if (infile.is_open())
+    
