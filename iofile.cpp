@@ -31,4 +31,6 @@ int main()
 
     // membuat obyek input file stream dalam mode membaca
     ifstream infile;
-   
+    // menulis file
+    infile.open("contohfile.txt");
+    
