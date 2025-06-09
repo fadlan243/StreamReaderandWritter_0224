@@ -20,4 +20,8 @@ int main()
 
     // unlimited Loop untuk menulis
     while (true)
-    
+    {
+        cout << "- ";
+        // mendapatkan setiap karakter dalam suatu baris
+        getline(cin, baris);
+        
